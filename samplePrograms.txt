@@ -1,0 +1,77 @@
+Dceimal to binary
+
+#include <bits/stdc++.h>
+using namespace std;
+// decimal to binary 
+
+int main()
+{
+#ifndef ONLINE_JUDGE
+    // For getting input from input.txt file
+    freopen("input.txt", "r", stdin);
+    // Printing the Output to output.txt file
+    freopen("output.txt", "w", stdout);
+#endif
+    int t;
+    int decimalNumber;
+    cin >> t;
+    vector<int> binary;
+    while (t--)
+    {
+        binary.clear();
+        cin >> decimalNumber;
+        while (decimalNumber > 0)
+        {
+            binary.push_back(decimalNumber % 2);
+            decimalNumber /= 2;
+        }
+        while (1)
+        {
+            if (binary.size() % 8 == 0)
+                break;
+            else
+                binary.push_back(0);
+        }
+        reverse(binary.begin(), binary.end());
+        for (int i = 0; i < binary.size(); i++)
+            cout << binary[i];
+        cout << endl;
+    }
+    return 0;
+}
+
+
+
+Monitization Finder 
+
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+#ifndef ONLINE_JUDGE
+    // For getting input from input.txt file
+    freopen("input.txt", "r", stdin);
+    // Printing the Output to output.txt file
+    freopen("output.txt", "w", stdout);
+#endif
+    int testCase,check;
+    cin >> testCase;
+    long int amount;
+    int notes[10]={2000,500,200,100,50,20,10,5,2,1};
+    while (testCase--)
+    {   
+        cin>>amount;
+        cout<<"for amount "<<amount<<" following Monetization required"<<endl;
+        for(int i=0;i<10;i++){
+            if(amount/notes[i]){
+                cout<<notes[i]<<" RS "<<amount/notes[i]<<" Notes"<<endl;
+                amount=amount%notes[i];
+            }
+        }
+        cout<<endl;
+
+        
+    }
+    return 0;
+}

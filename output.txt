@@ -1,0 +1,45 @@
+for amount 18256 following Monetization required
+2000 RS 9 Notes
+200 RS 1 Notes
+50 RS 1 Notes
+5 RS 1 Notes
+1 RS 1 Notes
+
+for amount 7888 following Monetization required
+2000 RS 3 Notes
+500 RS 3 Notes
+200 RS 1 Notes
+100 RS 1 Notes
+50 RS 1 Notes
+20 RS 1 Notes
+10 RS 1 Notes
+5 RS 1 Notes
+2 RS 1 Notes
+1 RS 1 Notes
+
+for amount 7000 following Monetization required
+2000 RS 3 Notes
+500 RS 2 Notes
+
+for amount 660 following Monetization required
+500 RS 1 Notes
+100 RS 1 Notes
+50 RS 1 Notes
+10 RS 1 Notes
+
+for amount 969 following Monetization required
+500 RS 1 Notes
+200 RS 2 Notes
+50 RS 1 Notes
+10 RS 1 Notes
+5 RS 1 Notes
+2 RS 2 Notes
+
+for amount 5656657765765 following Monetization required
+2000 RS 2828328882 Notes
+500 RS 3 Notes
+200 RS 1 Notes
+50 RS 1 Notes
+10 RS 1 Notes
+5 RS 1 Notes
+
